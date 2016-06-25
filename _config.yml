@@ -1,0 +1,22 @@
+# Site settings
+title: Comfy Studio Games
+email: contact@comfystudiogames.com
+url: http://comfystudiogames.com
+description: "Comfy Studio Games are an indie games studio currently developing Robots Minerals Profit."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Your Website
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/ComfyStudioGame
+
+# Build settings
+markdown: kramdown
+permalink: pretty

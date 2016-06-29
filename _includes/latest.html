@@ -1,0 +1,20 @@
+    <!-- Latest Posts -->
+    <section id="latest" class="container content-section text-center">
+    {% assign post = site.posts.first %}
+    {% if post.title %}
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Latest Update</h2>
+                <h3>
+                    <a href="{{ post.url }}">{{ site.time | date_to_long_string }} - {{ post.title }}</a>
+                </h3>
+                <p>
+                    {{ post.excerpt }} <a href="{{ post.url }}"> ... Read More</a>
+                </p>
+                <h3>
+                    <a href="/blog/">All Posts</a>
+                </h3>
+            </div>
+        </div>
+    {% endif %}
+    </section>

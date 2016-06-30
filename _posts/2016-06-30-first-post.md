@@ -1,8 +1,13 @@
 ---
 layout: post
 published: false
-excerpt: Robots Minerals Profit!
+excerpt: >-
+  **Robots Minerals Profit!** Hi everyone. Welcome to the Comfy Studio Games
+  development blog for our game Robots Minerals Profit! - a side-on builder game
+  with a robotic mining colony theme. We are two friends working on the game
+  full time.
 ---
+### **Robots Minerals Profit!**
 
 Hi everyone. Welcome to the Comfy Studio Games development blog for our game **Robots Minerals Profit!** - a side-on builder game with a robotic mining colony theme. We are two friends working on the game full time. 
 

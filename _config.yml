@@ -28,11 +28,6 @@ prose:
   media: 'assets'
   metadata:
     _posts:
-      - name: "title"
-        field:
-          element: "text"
-          label: "title"
-          placeholder: "Enter title"
       - name: "layout"
         field:
           label: "layout"

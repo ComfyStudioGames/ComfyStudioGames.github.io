@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 excerpt: >-
   Hi everyone. Welcome to the Comfy Studio Games development blog for our game
   **Robots Minerals Profit!** - a side-on builder game with a robotic mining

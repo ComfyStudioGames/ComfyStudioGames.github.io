@@ -37,24 +37,20 @@ prose:
         field:
           label: "date"
           element: "text"
-          help: "Dates in the future will be published on that date."
           value: "CURRENT_DATETIME"
       - name: "author"
         field:
           label: "author"
-          help: "The authors name to be used when displaying this post."
           element: "text"
           placeholder: "Enter name"
       - name: "categories"
         field:
           label: "categories"
-          help: "Any categories you would like this post to be grouped under."
           element: "text"
           placeholder: "Enter categories"
       - name: "excerpt"
         field:
           label: "excerpt"
-          help: "The preview description that will be shown for this post."
           element: "text"
           placeholder: "Enter excerpt"
       - name: "meta"
@@ -65,7 +61,5 @@ prose:
       - name: "published"
       	field:
           label: "publish"
-          element: "button"
-          help: "Should this post be visible or hidden?"
-          on: "Visible"
-          off: "Hidden"
+          element: "checkbox"
+          value: true

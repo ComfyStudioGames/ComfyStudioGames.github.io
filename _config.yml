@@ -23,7 +23,7 @@ permalink: pretty
 
 # Prose settings
 prose:
-  rooturl: ''
+  rooturl: '_posts'
   siteurl: 'http://www.www.comfystudiogames.com'
   media: 'assets'
   metadata:

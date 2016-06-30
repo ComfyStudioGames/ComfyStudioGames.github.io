@@ -28,33 +28,23 @@ prose:
   media: 'assets'
   metadata:
     _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+          placeholder: "Enter title"
       - name: "layout"
         field:
           label: "layout"
           element: "hidden"
           value: "post"
-      - name: "date"
-        field:
-          label: "date"
-          element: "text"
-          value: "CURRENT_DATETIME"
-      - name: "author"
-        field:
-          label: "author"
-          element: "text"
-          placeholder: "Enter name"
-      - name: "categories"
-        field:
-          label: "categories"
-          element: "text"
-          placeholder: "Enter categories"
       - name: "excerpt"
         field:
           label: "excerpt"
           element: "text"
           placeholder: "Enter excerpt"
-      - name: "meta"
+      - name: "published"
         field:
-          label: "meta"
-          element: "hidden"
-          placeholder: "Enter metadata"
+          label: "publish"
+          element: "checkbox"
+          value: "true"

@@ -58,8 +58,3 @@ prose:
           label: "meta"
           element: "hidden"
           placeholder: "Enter metadata"
-      - name: "published"
-      	field:
-          label: "publish"
-          element: "checkbox"
-          value: true
